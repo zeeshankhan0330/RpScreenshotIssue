@@ -1,0 +1,5 @@
+C:\Users\zeeshank\source\repos\RPScreenshotIssue\RPScreenshotIssue\obj\Debug\netcoreapp2.1\RPScreenshotIssue.csproj.AssemblyReference.cache
+C:\Users\zeeshank\source\repos\RPScreenshotIssue\RPScreenshotIssue\obj\Debug\netcoreapp2.1\RPScreenshotIssue.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zeeshank\source\repos\RPScreenshotIssue\RPScreenshotIssue\obj\Debug\netcoreapp2.1\RPScreenshotIssue.AssemblyInfoInputs.cache
+C:\Users\zeeshank\source\repos\RPScreenshotIssue\RPScreenshotIssue\obj\Debug\netcoreapp2.1\RPScreenshotIssue.AssemblyInfo.cs
+C:\Users\zeeshank\source\repos\RPScreenshotIssue\RPScreenshotIssue\obj\Debug\netcoreapp2.1\RPScreenshotIssue.csproj.CoreCompileInputs.cache

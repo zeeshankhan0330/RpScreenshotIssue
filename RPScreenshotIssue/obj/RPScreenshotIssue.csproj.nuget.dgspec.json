@@ -1,0 +1,106 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\zeeshank\\source\\repos\\RPScreenshotIssue\\RPScreenshotIssue\\RPScreenshotIssue.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\zeeshank\\source\\repos\\RPScreenshotIssue\\RPScreenshotIssue\\RPScreenshotIssue.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\zeeshank\\source\\repos\\RPScreenshotIssue\\RPScreenshotIssue\\RPScreenshotIssue.csproj",
+        "projectName": "RPScreenshotIssue",
+        "projectPath": "C:\\Users\\zeeshank\\source\\repos\\RPScreenshotIssue\\RPScreenshotIssue\\RPScreenshotIssue.csproj",
+        "packagesPath": "C:\\Users\\zeeshank\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\zeeshank\\source\\repos\\RPScreenshotIssue\\RPScreenshotIssue\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\zeeshank\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://artifactory.dunnhumby.com/artifactory/api/nuget/Nuget": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "targetAlias": "netcoreapp2.2",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "targetAlias": "netcoreapp2.2",
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[15.9.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "ReportPortal.Shared": {
+              "target": "Package",
+              "version": "[2.5.0, )"
+            },
+            "ReportPortal.SpecFlow": {
+              "target": "Package",
+              "version": "[2.1.5, )"
+            },
+            "ReportPortal.VSTest.TestLogger": {
+              "target": "Package",
+              "version": "[2.3.9, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[3.141.0, )"
+            },
+            "Selenium.WebDriver.ChromeDriver": {
+              "target": "Package",
+              "version": "[97.0.4692.7100, )"
+            },
+            "SpecFlow.Tools.MsBuild.Generation": {
+              "target": "Package",
+              "version": "[3.0.225, )"
+            },
+            "SpecRun.SpecFlow": {
+              "target": "Package",
+              "version": "[3.0.391, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

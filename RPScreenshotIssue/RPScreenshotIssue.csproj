@@ -1,0 +1,61 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+
+  </PropertyGroup>
+  
+    <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <Optimize>false</Optimize>
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  
+  <PropertyGroup>
+   <LangVersion>preview</LangVersion>
+</PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.9.0" />
+    <PackageReference Include="MSTest.TestFramework" Version="2.1.0" />
+    <PackageReference Include="ReportPortal.Shared" Version="2.5.0" />
+    <PackageReference Include="ReportPortal.SpecFlow" Version="2.1.5" />
+    <PackageReference Include="ReportPortal.VSTest.TestLogger" Version="2.3.9" />
+    <PackageReference Include="Selenium.WebDriver" Version="3.141.0" />
+    <PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="97.0.4692.7100" />
+    <PackageReference Include="SpecFlow.Tools.MsBuild.Generation" Version="3.0.225" />
+    <PackageReference Include="SpecRun.SpecFlow" Version="3.0.391" />
+    <PackageReference Include="FluentAssertions" Version="6.2.0" />
+  </ItemGroup>
+  
+   <ItemGroup>
+    <SpecFlowFeatureFiles Update="Features\Calculator.feature">
+      <Visible>$(UsingMicrosoftNETSdk)</Visible>
+      <CodeBehindFile>%(RelativeDir)%(Filename).feature$(DefaultLanguageSourceExtension)</CodeBehindFile>
+      <LastGenOutput>Calculator.feature.cs</LastGenOutput>
+    </SpecFlowFeatureFiles>
+	   <SpecFlowFeatureFiles Update="Features\Calculator.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>Calculator.feature.cs</LastGenOutput>
+      <Generator Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'"></Generator>
+    </SpecFlowFeatureFiles>
+	
+	   <None Update="Features\Calculator.feature">
+      <Generator></Generator>
+    </None>
+	  </ItemGroup>
+	  
+	      <Target Name="AfterUpdateFeatureFilesInProject">
+    <!-- include any generated SpecFlow files in the compilation of the project if not included yet -->
+    <ItemGroup>
+        <Compile Include="**\*.feature.cs" Exclude="@(Compile)" />
+    </ItemGroup>
+</Target>
+
+  <ItemGroup>
+    <Folder Include="Drivers\" />
+    <Folder Include="Hooks\" />
+  </ItemGroup>
+
+</Project>

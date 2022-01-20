@@ -1,0 +1,17 @@
+{
+  "$schema": "https://raw.githubusercontent.com/reportportal/agent-net-specflow/master/ReportPortal.SpecFlowPlugin/ReportPortal.config.schema",
+  "enabled": true,
+  "server": {
+    "url": "",
+    "project": "",
+    "authentication": {
+      "uuid": ""
+    }
+  },
+  "launch": {
+    "name": "UI Tests",
+    "description": "User Journey Tests on UI",
+    "debugMode": true,
+    "tags": [ "user journey tests" ]
+  }
+}

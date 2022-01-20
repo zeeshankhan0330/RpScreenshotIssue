@@ -1,0 +1,97 @@
+﻿2022-01-20T23:12:41.6451969+05:30;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2022-01-20T23:12:41.6452534+05:30;VSTestExecutionThread;Info;SpecFlow+Runner 3.0.391 in Framework netcore22 in x64 mode execution started
+2022-01-20T23:12:41.6452551+05:30;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\zeeshank\source\repos\RPScreenshotIssue\RPScreenshotIssue\bin\Debug\netcoreapp2.2\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2022-01-20T23:12:41.6681825+05:30;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\zeeshank\source\repos\RPScreenshotIssue\RPScreenshotIssue\bin\Debug\netcoreapp2.2\RPScreenshotIssue.dll
+2022-01-20T23:12:41.6683336+05:30;VSTestExecutionThread;Info;Output folder configured to "C:\Users\zeeshank\source\repos\RPScreenshotIssue\TestResults" (default)
+2022-01-20T23:12:41.6683785+05:30;VSTestExecutionThread;Info;Profile: 
+2022-01-20T23:12:41.6958517+05:30;VSTestExecutionThread;Info;Log file path: C:\Users\zeeshank\source\repos\RPScreenshotIssue\TestResults\Unnamed project__2022-01-20T231241.log
+2022-01-20T23:12:41.7021751+05:30;VSTestExecutionThread;Info;SpecFlow+Runner Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2022-01-20T23:12:41.7065617+05:30;Thread#12;Info;Checking license
+2022-01-20T23:12:41.7186803+05:30;Thread#12;Info;Evaluation mode: test execution starts in 5 seconds... (this delay is removed in the registered version)
+2022-01-20T23:12:46.7256770+05:30;Thread#12;Info;Evaluation delay finished.
+2022-01-20T23:12:46.7469763+05:30;Thread#12;Info;License check completed
+2022-01-20T23:12:46.7471962+05:30;Thread#12;Info;starting test run
+2022-01-20T23:12:46.7599484+05:30;Thread#12;Info;Discovering target: Default
+2022-01-20T23:12:46.7602217+05:30;Thread#12;Info;Discovering tests from assembly: C:\Users\zeeshank\source\repos\RPScreenshotIssue\RPScreenshotIssue\bin\Debug\netcoreapp2.2\RPScreenshotIssue.dll
+2022-01-20T23:12:46.8507724+05:30;Thread#12;Info;Discovered tests from assembly: C:\Users\zeeshank\source\repos\RPScreenshotIssue\RPScreenshotIssue\bin\Debug\netcoreapp2.2\RPScreenshotIssue.dll
+2022-01-20T23:12:46.8518838+05:30:Test Suite Dump
+2022-01-20T23:12:46.8533204+05:30:#0: Unnamed project/ - 
+2022-01-20T23:12:46.8533359+05:30:#1: Default - 
+2022-01-20T23:12:46.8533378+05:30:#2: RPScreenshotIssue - 
+2022-01-20T23:12:46.8533391+05:30:#3: Calculator - 
+2022-01-20T23:12:46.8533873+05:30:#4: Add two numbers - TestAssembly:RPScreenshotIssue/Feature:Calculator/Scenario:Add+two+numbers
+2022-01-20T23:12:46.8534146+05:30:End: Test Suite Dump
+2022-01-20T23:12:46.8682397+05:30:Thread#0:Scheduler: get next test for thread 0
+2022-01-20T23:12:46.8700239+05:30:Thread#:Scheduler: testitem #4 from normal test queue 
+2022-01-20T23:12:46.8700730+05:30:Thread#0:Scheduler: considering testitem #4 for thread 0
+2022-01-20T23:12:46.8732062+05:30:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2022-01-20T23:12:46.8732141+05:30:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2022-01-20T23:12:46.8732163+05:30:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2022-01-20T23:12:46.8732184+05:30:Thread#0:Scheduler: using testitem #4 for thread 0
+2022-01-20T23:12:46.8744530+05:30:Thread#0:Scheduler: Test #4 is scheduled for thread
+2022-01-20T23:12:46.8754886+05:30:Thread#0:Scheduler: with testItemExecutionIndex 0
+2022-01-20T23:12:46.8785521+05:30:Thread #0: creating new test thread executor for RPScreenshotIssue, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2022-01-20T23:12:46.8809061+05:30:Thread #0: Creating test assembly executor for execution model OutProc
+2022-01-20T23:12:46.8815391+05:30:Thread #0: Creating test assembly executor for execution model OutProc
+2022-01-20T23:12:46.8828483+05:30:Thread #0: using TechTalk.SpecRun.Framework.Execution.OutOfProc.StreamJsonRPC.OutOfProcessTestAssemblyExecutorHost to execute tests
+2022-01-20T23:12:46.9599597+05:30:Assembly resolving Microsoft.VisualStudio.Validation, Version=15.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2022-01-20T23:12:47.0095491+05:30:starting Out Of Process Executor
+2022-01-20T23:12:47.0929771+05:30:Executing test executor at 'C:\Program Files\dotnet\dotnet.exe' '"C:\Users\zeeshank\source\repos\RPScreenshotIssue\RPScreenshotIssue\bin\Debug\netcoreapp2.2\SpecFlowPlusRunner\netcoreapp2.2\TechTalk.SpecRun.Framework.Executor.anycpu.netcoreapp2_2.dll" 15824 2022-01-20T231241 "C:\Users\zeeshank\source\repos\RPScreenshotIssue\TestResults"' in 'C:\Users\zeeshank\source\repos\RPScreenshotIssue\RPScreenshotIssue\bin\Debug\netcoreapp2.2'
+2022-01-20T23:12:47.1236361+05:30:Entering Memory Barrier for 18440
+2022-01-20T23:12:47.1236569+05:30:Leaving Memory Barrier for 18440
+2022-01-20T23:12:47.1292333+05:30:Out of Process Executor 18440 started
+2022-01-20T23:12:47.1351310+05:30:Waiting for endpoint
+2022-01-20T23:12:47.1367159+05:30:trying to connect to Out of Process Executor the 1 attempt
+2022-01-20T23:12:47.5102427+05:30:waiting for Connection of SpecRun.Executor.18440.Logger ended
+2022-01-20T23:12:47.5120641+05:30:Assembly resolving Microsoft.VisualStudio.Threading, Version=15.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2022-01-20T23:12:47.6279385+05:30:Connection to Out of Process Executor established in the 1 attempt
+2022-01-20T23:12:47.8085322+05:30:waiting for Connection of SpecRun.Executor.18440.Callback ended
+2022-01-20T23:12:47.9472714+05:30:2022-01-20T23:12:47.8744312+05:30:OutOfProcessTestAssemblyExecutor: initialized for C:\Users\zeeshank\source\repos\RPScreenshotIssue\RPScreenshotIssue\bin\Debug\netcoreapp2.2\RPScreenshotIssue.dll on test thread #0
+2022-01-20T23:12:47.9586331+05:30:Endpoint 18440 started
+2022-01-20T23:12:47.9762791+05:30:2022-01-20T23:12:47.9758950+05:30:OutOfProcessTestAssemblyExecutor: running tests...
+2022-01-20T23:12:48.0755632+05:30:Thread#0: Test #4/0 is started on thread #0
+2022-01-20T23:12:48.0826395+05:30:2022-01-20T23:12:48.0823078+05:30:Thread#0:T:2022-01-20T23:12:48.0808882+05:30:Assembly resolving TechTalk.SpecFlow, Version=3.0.0.0, Culture=neutral, PublicKeyToken=0778194805d6db41
+2022-01-20T23:12:48.2615623+05:30:2022-01-20T23:12:48.2612344+05:30:Thread#0:T:-> Loading plugin C:\Users\zeeshank\source\repos\RPScreenshotIssue\RPScreenshotIssue\bin\Debug\netcoreapp2.2\ReportPortal.SpecFlowPlugin.dll
+2022-01-20T23:12:48.2654143+05:30:2022-01-20T23:12:48.2651234+05:30:Thread#0:T:2022-01-20T23:12:48.2649201+05:30:Assembly resolving TechTalk.SpecFlow, Version=3.0.0.0, Culture=neutral, PublicKeyToken=0778194805d6db41
+2022-01-20T23:12:48.2666008+05:30:2022-01-20T23:12:48.2663210+05:30:Thread#0:T:2022-01-20T23:12:48.2661382+05:30:Assembly resolving ReportPortal.Shared, Version=2.5.0.0, Culture=neutral, PublicKeyToken=null
+2022-01-20T23:12:48.2800954+05:30:2022-01-20T23:12:48.2798019+05:30:Thread#0:T:-> Loading plugin C:\Users\zeeshank\source\repos\RPScreenshotIssue\RPScreenshotIssue\bin\Debug\netcoreapp2.2\SpecRun.Runtime.SpecFlowPlugin.dll
+2022-01-20T23:12:48.2827363+05:30:2022-01-20T23:12:48.2825228+05:30:Thread#0:T:2022-01-20T23:12:48.2824311+05:30:Assembly resolving TechTalk.SpecFlow, Version=3.0.0.0, Culture=neutral, PublicKeyToken=0778194805d6db41
+2022-01-20T23:12:48.2862723+05:30:2022-01-20T23:12:48.2854808+05:30:Thread#0:T:-> Using default config
+2022-01-20T23:12:48.2959119+05:30:2022-01-20T23:12:48.2955443+05:30:Thread#0:T:2022-01-20T23:12:48.2953115+05:30:Assembly resolving Microsoft.VisualStudio.TestPlatform.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2022-01-20T23:12:48.3020823+05:30:2022-01-20T23:12:48.3018042+05:30:Thread#0:T:-> error: Value cannot be null.
+2022-01-20T23:12:48.3024886+05:30:2022-01-20T23:12:48.3022172+05:30:Thread#0:T:Parameter name: key
+2022-01-20T23:12:48.3382807+05:30:Thread#0:Scheduler: get next test for thread 0
+2022-01-20T23:12:48.3383109+05:30:Thread#:Scheduler: at the end of normal test queue
+2022-01-20T23:12:48.3383131+05:30:Thread#0:Scheduler: enumerator for thread is at end
+2022-01-20T23:12:48.3383161+05:30:Thread#0:Scheduler: No more tests for thread
+2022-01-20T23:12:48.3402905+05:30:2022-01-20T23:12:48.3400454+05:30:Thread#0:T:-> error: Value cannot be null.
+2022-01-20T23:12:48.3406779+05:30:2022-01-20T23:12:48.3404846+05:30:Thread#0:T:Parameter name: key
+2022-01-20T23:12:48.3670101+05:30:Thread#0: Test #4/0 is finished on thread #0 as InitializationFailed within 0.2909509 seconds
+2022-01-20T23:12:48.3761197+05:30:RPC Client disconnected, because 'Disposed'. 
+LastMessage: 
+Description:Stream has been disposed
+Exception:<none>
+2022-01-20T23:12:48.3923563+05:30:Unable to stop executor process: System.InvalidOperationException: No process is associated with this object.
+   at System.Diagnostics.Process.EnsureState(State state)
+   at System.Diagnostics.Process.get_HasExited()
+   at TechTalk.SpecRun.Framework.Execution.OutOfProc.OutProcExecutorManager.StopExecutorProcess(Process executorProcess)
+2022-01-20T23:12:48.3978291+05:30:Thread#-1:Scheduler: get next test for thread -1
+2022-01-20T23:12:48.3978404+05:30:Thread#:Scheduler: at the end of normal test queue
+2022-01-20T23:12:48.3978426+05:30:Thread#-1:Scheduler: enumerator for thread is at end
+2022-01-20T23:12:48.3992942+05:30;Thread#12;Info;test run finished
+2022-01-20T23:12:48.3994191+05:30;Thread#12;Info;publishing test results
+2022-01-20T23:12:48.3995399+05:30;Thread#12;Info;Not publishing results.
+2022-01-20T23:12:48.3995953+05:30;Thread#12;Info;test results published
+2022-01-20T23:12:48.3996337+05:30;Thread#12;Info;generating reports
+2022-01-20T23:12:48.4549028+05:30;Thread#12;Info;Starting external report generation process
+2022-01-20T23:12:50.5752258+05:30;Thread#12;Info;Successfully generated reports.
+2022-01-20T23:12:50.5770179+05:30;Thread#12;Info;Successfully generated reports
+2022-01-20T23:12:50.5835095+05:30:Total: 1
+2022-01-20T23:12:50.5862519+05:30:Succeeded: 0
+2022-01-20T23:12:50.5868154+05:30:Ignored: 0
+2022-01-20T23:12:50.5873379+05:30:Pending: 0
+2022-01-20T23:12:50.5873446+05:30:Skipped: 0
+2022-01-20T23:12:50.5878775+05:30:Failed: 1
+2022-01-20T23:12:50.5993819+05:30;VSTestExecutionThread;Info;Adding attachments to VSTest
+2022-01-20T23:12:50.5994747+05:30;VSTestExecutionThread;Info;adding Test Execution Report 'C:\Users\zeeshank\source\repos\RPScreenshotIssue\TestResults\Unnamed project__2022-01-20T231241.html'
+========== End of log file ==========

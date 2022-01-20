@@ -1,0 +1,14 @@
+ReportPortalHooks Error: 8 : 23:34:21.0988355 : 1-TechTalk.SpecRun.Framework.Executor.anycpu.netcoreapp2_2 : System.ArgumentException: The tasks argument included a null value.
+Parameter name: tasks
+   at System.Threading.Tasks.TaskFactory.CheckMultiContinuationTasksAndCopy(Task[] tasks)
+   at System.Threading.Tasks.TaskFactory`1.ContinueWhenAllImpl(Task[] tasks, Func`2 continuationFunction, Action`1 continuationAction, TaskContinuationOptions continuationOptions, CancellationToken cancellationToken, TaskScheduler scheduler)
+   at System.Threading.Tasks.TaskFactory.ContinueWhenAll[TResult](Task[] tasks, Func`2 continuationFunction)
+   at ReportPortal.Shared.Reporter.TestReporter.Finish(FinishTestItemRequest request)
+   at ReportPortal.SpecFlowPlugin.ReportPortalHooks.AfterFeature(FeatureContext featureContext) in C:\projects\agent-net-specflow\src\ReportPortal.SpecFlowPlugin\ReportPortalHooks.cs:line 195
+ReportPortalHooks Error: 8 : 23:34:21.1059271 : 1-TechTalk.SpecRun.Framework.Executor.anycpu.netcoreapp2_2 : System.ArgumentException: The tasks argument included a null value.
+Parameter name: tasks
+   at System.Threading.Tasks.TaskFactory.CheckMultiContinuationTasksAndCopy(Task[] tasks)
+   at System.Threading.Tasks.TaskFactory`1.ContinueWhenAllImpl(Task[] tasks, Func`2 continuationFunction, Action`1 continuationAction, TaskContinuationOptions continuationOptions, CancellationToken cancellationToken, TaskScheduler scheduler)
+   at System.Threading.Tasks.TaskFactory.ContinueWhenAll[TResult](Task[] tasks, Func`2 continuationFunction)
+   at ReportPortal.Shared.Reporter.LaunchReporter.Finish(FinishLaunchRequest request)
+   at ReportPortal.SpecFlowPlugin.ReportPortalHooks.AfterTestRun() in C:\projects\agent-net-specflow\src\ReportPortal.SpecFlowPlugin\ReportPortalHooks.cs:line 110
